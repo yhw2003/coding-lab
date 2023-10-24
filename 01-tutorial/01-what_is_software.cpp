@@ -1,3 +1,7 @@
+/*
+从用户视角看程序：输入 -> 处理 -> 输出
+*/
+
 #include <iostream>
 extern void name_handle(char *);
 
