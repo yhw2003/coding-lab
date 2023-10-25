@@ -22,6 +22,7 @@ def numH():
     return {"msg": num}
 
 def saveNum():
+    data_obj.seek(0)
     data_obj.write(str(num))
     
 
